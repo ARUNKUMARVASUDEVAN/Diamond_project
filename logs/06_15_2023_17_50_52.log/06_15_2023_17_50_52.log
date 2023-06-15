@@ -1,0 +1,30 @@
+[2023-06-15 17:50:52,436]148 numexpr.utils - INFO - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2023-06-15 17:50:52,437]160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2023-06-15 17:50:53,439]24 root - INFO - Data Ingestion methods starts
+[2023-06-15 17:50:53,538]27 root - INFO - Dataset read as pandas DataFrame
+[2023-06-15 17:50:54,160]30 root - INFO - Train test split
+[2023-06-15 17:50:54,788]36 root - INFO - Data ingestion is completed
+[2023-06-15 17:50:54,920]76 root - INFO - Read train and test completed
+[2023-06-15 17:50:54,930]77 root - INFO - Train Dataframe head:
+<bound method DataFrame.to_string of        id  carat      cut  ...     y     z  price
+0    9559   1.52  Premium  ...  7.30  4.58  10062
+1   66025   0.30    Ideal  ...  4.33  2.67    376
+2  185803   1.20    Ideal  ...  6.89  4.16   7295
+3  149916   0.52  Premium  ...  5.11  3.20   1707
+4  150473   1.00     Fair  ...  6.24  4.10   4474
+
+[5 rows x 11 columns]>
+[2023-06-15 17:50:54,948]78 root - INFO - Test DataFrame Head :
+<bound method DataFrame.to_string of        id  carat      cut  ...     y     z  price
+0  104834   0.35  Premium  ...  4.54  2.77    684
+1    6032   0.52  Premium  ...  5.09  3.16   1626
+2  191875   1.00  Premium  ...  6.39  3.92   4566
+3  108765   2.01    Ideal  ...  8.06  5.01  17294
+4  107767   0.31  Premium  ...  4.29  2.68    527
+
+[5 rows x 11 columns]>
+[2023-06-15 17:50:54,948]80 root - INFO - Obtaining preprocessing object
+[2023-06-15 17:50:54,948]26 root - INFO - Data Transformation initiated
+[2023-06-15 17:50:54,948]36 root - INFO - Pipeline Initiated
+[2023-06-15 17:50:55,203]95 root - INFO - Applying preprocessing object on training and testing datasets.
+[2023-06-15 17:50:55,210]105 root - INFO - Preprocessor pickle file saved
